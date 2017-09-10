@@ -15,31 +15,25 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,900" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="ashybon.github.io/font-awesome/css/font-awesome.min.css">
+    <link href="css/one-page-wonder.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<body>
-
-    
+<body> 
 
     <!-- Full Width Image Header -->
-    <header class="header-image">
+    <header class="header-image" id="header-image">
         <div class="headline">
         	<h1>Ashley Bonnard</h1>
         	<h3>UI/UX Designer</h3>
@@ -57,7 +51,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="#header-image">
                     <img alt="Logo" src="images/logo.svg">
                     </a>
                 </div>
@@ -87,132 +81,70 @@
         <!-- First Featurette -->
         <div class="featurette" id="about">
             <img src="images/ashley.png" id="ashley" alt="Picture of Ashley">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>My name is Ashley, I am a San Francisco based UI/UX designer originating from Texas with a passion for life, travel, art, design and music. Being a very curious person, I allow myself to open my mind to many different possibilities in life as well as in design. I recently took a Front End Web Development class where I brushed up on some HTML and CSS and ended up making this website! I'm currently working at Westfield Retail Solutions, designing for the future of retail, but looking to transition into a new area of design. Lets talk!</p>
         </div>
 
         <!-- Second Featurette -->
         <div class="featurette" id="work">
-
-            <!-- Thumbnail Content -->
-        <div class="container">
-
+            <!-- Thumbnail Content --> 
             <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-3">
+                <a href="Westfield_Website.html" class="thumbnail">
+                  <div class="caption">
+                     <h6>Westfield Website Redesign</h6>
+                  </div>
+                  <img src="images/homepage_thumbnail.png" alt="Westfield Homepage Design">
+                </a>
+              </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 thumb">
-                    <a class="thumbnail">
-                        <img class="img-responsive" src="images/cactus.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="cactus">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 thumb">
-                    <a class="thumbnail">
-                        <img class="img-responsive" src="images/camera.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="camera">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 thumb">
-                    <a class="thumbnail">
-                        <img class="img-responsive" src="images/night.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="night sky">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 thumb">
-                    <a class="thumbnail">
-                        <img class="img-responsive" src="images/ribbon.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="ribbon over antlers">
-                    </a>
-                </div>
+              <div class="col-sm-6 col-md-6 col-lg-3">
+                <a href="Dine_On_Time.html" class="thumbnail">
+                  <div class="caption">
+                     <h6>Dine On Time</h6>
+                  </div>
+                  <img src="images/dot_thumbnail.png" alt="Dine On Time Advertisement">
+                </a>
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-lg-3">
+                <a href="Lolivier.html" class="thumbnail">
+                  <div class="caption">
+                     <h6>L'Olivier Restaurant Branding</h6>
+                  </div>
+                  <img src="images/lolivier_thumbnail.jpg" alt="L'Olivier Restaurant Logo">
+                </a>
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-lg-3">
+                <a href="Type_Innovation.html" class="thumbnail">
+                  <div class="caption">
+                     <h6>Type Innovation Poster</h6>
+                  </div>
+                  <img src="images/type_thumbnail.png" alt="Type Innovation Poster">
+                </a>
+              </div>
             </div>
+          </div>
 
-            <div class="row">
-
-                <div class="col-lg-3 col-md-4 col-sm-6 thumb">
-                    <a class="thumbnail">
-                        <img class="img-responsive" src="images/sparkler.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="sparkler">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 thumb">
-                    <a class="thumbnail">
-                        <img class="img-responsive" src="images/color.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="colored building">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 thumb">
-                    <a class="thumbnail">
-                        <img class="img-responsive" src="images/rocks.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="stacked rocks">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 thumb">
-                    <a class="thumbnail">
-                        <img class="img-responsive" src="images/trees.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow" alt="trees">
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal Content -->
-
-        <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-
-                <div class="mySlides">
-                  <div class="numbertext">1 / 8</div>
-                    <img src="images/cactus.jpg" class="slide_image">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">2 / 8</div>
-                    <img src="images/camera.jpg" class="slide_image">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">3 / 8</div>
-                    <img src="images/night.jpg" class="slide_image">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">4 / 8</div>
-                    <img src="images/ribbon.jpg" class="slide_image">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">5 / 8</div>
-                    <img src="images/sparkler.jpg" class="slide_image">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">6 / 8</div>
-                    <img src="images/color.jpg" class="slide_image">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">7 / 8</div>
-                    <img src="images/rocks.jpg" class="slide_image">
-                </div>
-
-                <div class="mySlides">
-                  <div class="numbertext">8 / 8</div>
-                    <img src="images/trees.jpg" class="slide_image">
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                <div class="caption-container">
-                  <p id="caption"></p>
-                </div>
-            </div>
-        </div>
-
-        <!-- End Modal Content -->
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-        </div><!-- End Inner -->
+            <h2> Let's chat! </h2>
+            <input type="submit" class='button' value="Email Me" onclick="window.location.href='mailto:ashleybonnard@gmail.com'">
 
-        <!-- Social Links --> 
-            <i class="fa fa-instagram" fa-lg></i>
-            <i class="fa fa-linkedin" fa-lg></i>
-            <i class="fa fa-facebook" fa-lg></i>
+            <!-- Social Links --> 
+            <div class="social">
+              <h2>Or find me here</h2>
+                <a href="https://www.instagram.com/ashybon" target="_blank"> <i class="fa fa-instagram fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/abonnard" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="https://www.facebook.com/ashley.bonnard" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+            </div>    
+        </div>
+
+
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
